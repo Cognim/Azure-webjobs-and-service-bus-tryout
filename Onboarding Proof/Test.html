@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8"/>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js" data-require="jquery@1.11.3" data-semver="1.11.3"></script>
+</head>
+<body>
+<div id="test"></div>
+<script>
+
+	$.getJSON('/', function(data) {
+		$('#test').html(data.Text);
+	});
+
+</script>
+</body>
+</html>
