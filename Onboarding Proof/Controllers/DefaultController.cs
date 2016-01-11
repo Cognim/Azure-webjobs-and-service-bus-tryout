@@ -17,7 +17,7 @@ namespace Onboarding_Proof.Controllers
 		{
 			var result = new
 			{
-				Text = "Hello Azure!!"
+				Text = "New Release"
 			};
 
 			return Ok(result);
